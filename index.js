@@ -7,7 +7,7 @@
     clearOnComplete: false,
     hideCursor: true
   }, cliProgress.Presets.shades_grey)
-  const detector = detectFacesInVideo('./test.mp4')
+  const detector = detectFacesInVideo('./smalltest.mp4')
   let b1 = {}
   let b2 = {}
   detector.start()
